@@ -5,15 +5,18 @@
 /* betty style doc for function main goes there */
 /**
  * main -Entry Point
- * Return 0 (Success)
+ *
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/*solution goes there*/
 	if (n > 0)
-	    printf("%d is positive\n", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
