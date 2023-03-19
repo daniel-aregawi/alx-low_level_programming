@@ -8,6 +8,6 @@ int main(void)
 	int i;
 	/*here goes some code */
 	for (i = 0; i < 10; i++)
-		printf("%d", i);
+		printf("%d\n", i);
 	return (0);
 }
