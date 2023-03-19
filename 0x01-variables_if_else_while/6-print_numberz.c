@@ -5,25 +5,25 @@
 */
 int main(void)
 {
-	putchar(48);
-	putchar(10);
-	putchar(49);
-	putchar(10);
-	putchar(50);
-	putchar(10);
-	putchar(51);
-	putchar(10);
-	putchar(52);
-	putchar(10);
-	putchar(53);
-	putchar(10);
-	putchar(54);
-	putchar(10);
-	putchar(55);
-	putchar(10);
-	putchar(56);
-	putchar(10);
-	putchar(57);
-	putchar(10);
+	putchar('0');
+	putchar('\n');
+	putchar('1');
+	putchar('\n');
+	putchar('2');
+	putchar('\n');
+	putchar('3');
+	putchar('\n');
+	putchar('4');
+	putchar('\n');
+	putchar('5');
+	putchar('\n');
+	putchar('6');
+	putchar('\n');
+	putchar('7');
+	putchar('\n');
+	putchar('8');
+	putchar('\n');
+	putchar('9');
+	putchar('\n');
 	return (0);
 }
