@@ -1,14 +1,14 @@
+#include "main.h"
 /**
- * _puts - prints a string to stdout
- * @str: pointer to a char
+ * main - check the code
  *
- * Return: void
- */
-void _puts(char *str)
+ * Return: Always 0.
+*/
+int main(void)
 {
-	int i;
+	char *str;
 	
-	for (i = 0; str[i] != '\0'; i++)
-		_putchar(str[i]);
-	_putchar('\n');
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
+	return (0);
 }
