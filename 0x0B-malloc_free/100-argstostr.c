@@ -35,18 +35,18 @@ char *argstostr(int ac, char **av)
 		return (new_string);
 }
 /**
- * *len - returns length of str
- * *@str: string counted
- * *Return: returns the length
- * */
+ *len - returns length of str
+*@str: string counted
+ *Return: returns the length
+*/
 int len(char *str)
 {
-			int len = 0;
+	int len = 0;
 
-					if (str != NULL)
-								{
-												while (str[len])
-																	len++;
-														}
-						return (len);
+	if (str != NULL)
+	{
+		while (str[len])
+			len++;
+	}
+	return (len);
 }
