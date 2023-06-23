@@ -3,7 +3,6 @@
 #include <string.h>
 
 /**
-<<<<<<< HEAD
  * get_op_func - ...
  * @s: ...
  *
